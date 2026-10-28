@@ -19,10 +19,15 @@ Python · Pandas · NumPy · Scikit-learn · FastAPI · Uvicorn · Joblib
 4. **Encoding & scaling:** ordinal encoding for ordered categories, one-hot for the rest, scaling for numeric features
 5. **Model:** Random Forest Regressor, evaluated with R²
 
-   Model	         MAE	RMSE
-Random Forest (default)	0.347	0.464
-Random Forest (tuned)	0.369	0.487
-Linear Regression	0.536	0.676
++---------------------------+-------+-------+
+| Model                     | MAE   | RMSE  |
++---------------------------+-------+-------+
+| Random Forest (Default)   | 0.347 | 0.464 |
++---------------------------+-------+-------+
+| Random Forest (Tuned)     | 0.369 | 0.487 |
++---------------------------+-------+-------+
+| Linear Regression         | 0.536 | 0.676 |
++---------------------------+-------+-------+
 
 6. **Deployment:** model saved with Joblib and served through a FastAPI endpoint
 
